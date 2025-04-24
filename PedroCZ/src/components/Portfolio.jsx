@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import "../styles/Portfolio.css";
 
+const base = import.meta.env.BASE_URL;
+
 const images = [
-  "/assets/ProyectosIMG/VEOFyD1.png",
-  "/assets/ProyectosIMG/VEOFyD2.png",
-  "/assets/ProyectosIMG/VEOFyD3.png",
-  "/assets/ProyectosIMG/VEOFyD4.png",
-  "/assets/ProyectosIMG/VEOFyD5.png",
-  "/assets/ProyectosIMG/VEOFyD6.png",
-  "/assets/ProyectosIMG/VEOFyD7.png",
-  "/assets/ProyectosIMG/VEOFyD8.png",
-  "/assets/ProyectosIMG/VEOFyD9.png"
+  `${base}assets/ProyectosIMG/VEOFyD1.png`,
+  `${base}assets/ProyectosIMG/VEOFyD2.png`,
+  `${base}assets/ProyectosIMG/VEOFyD3.png`,
+  `${base}assets/ProyectosIMG/VEOFyD4.png`,
+  `${base}assets/ProyectosIMG/VEOFyD5.png`,
+  `${base}assets/ProyectosIMG/VEOFyD6.png`,
+  `${base}assets/ProyectosIMG/VEOFyD7.png`,
+  `${base}assets/ProyectosIMG/VEOFyD8.png`,
+  `${base}assets/ProyectosIMG/VEOFyD9.png`
 ];
 
 export default function Portfolio() {
@@ -18,7 +20,7 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className="portfolio">
-      <h2>PORTFOLIO</h2>
+      <h2>Portfolio</h2>
       <div className="project">
         <h3>VEO Fotografía y Diseño</h3>
         <p>

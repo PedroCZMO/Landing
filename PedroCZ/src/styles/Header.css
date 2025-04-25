@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     max-width: fit-content;
-    max-height: auto;
+    height: auto;
     margin-right: 3%;
 }
 .headerA a{

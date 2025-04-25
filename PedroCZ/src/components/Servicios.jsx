@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Servicios.css";
+import React, { useEffect } from "react";
+
 
 export default function Servicios() {
   useEffect(() => {

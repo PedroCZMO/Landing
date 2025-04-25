@@ -1,9 +1,6 @@
 .header{
     display: flex;
     justify-content: space-between;
-    
-    /* margin: 2%;
-    margin-top: 1%; */
 }
 .headerLogo{
     display: flex;
@@ -14,7 +11,6 @@
 .headerLogo img{
     max-width: 300px;
     height:auto;
-
 }
 
 .headerLogo p{

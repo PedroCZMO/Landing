@@ -13,7 +13,7 @@
     justify-content: flex-start;
     box-sizing: border-box;
     position: relative;
-  overflow: hidden; /* importante para ocultar el overlay */
+  overflow: hidden; 
 }
 .servicios::before {
     content: "";
@@ -84,6 +84,6 @@
   }
 
   .serviceCard a {
-    margin-top: 1rem; /* o padding-top si lo prefieres */
+    margin-top: 1rem; 
     display: inline-block;
   }

@@ -12,7 +12,7 @@
   justify-content: flex-start;
   box-sizing: border-box;
   position: relative;
-overflow: hidden; /* importante para ocultar el overlay */
+overflow: hidden; 
   }
   .contacto::before{
     content: "";

@@ -32,14 +32,14 @@ export default function Portfolio() {
       <div className="portfolio-gallery">
         {images.map((src, index) => (
           <div key={index} className="portfolio-item" onClick={() => setZoomedImg(src)}>
-            <img src={src} alt={`Captura pantalla sitio ${index + 1}`} />
+            <img src={src} alt={`Captura pantalla sitio ${index + 1}`} loading="lazy" />
           </div>
         ))}
       </div>
 
       {zoomedImg && (
         <div className="zoom-overlay" onClick={() => setZoomedImg(null)}>
-          <img src={zoomedImg} alt="Zoomed capture" />
+          <img src={zoomedImg} alt="Zoomed capture" loading="lazy" />
         </div>
       )}
     </section>

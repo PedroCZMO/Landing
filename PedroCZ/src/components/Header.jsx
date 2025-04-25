@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="header">
     <div className="headerLogo">
-      <img src={logo} alt="Logo de PedroCZ" />
+      <img src={logo} alt="Logo de PedroCZ" loading="lazy" />
       <p className="tagline">Webs modernas, rápidas y seguras, listas para resistir ataques.</p>
       </div>
     <div className="headerA">

@@ -1,20 +1,25 @@
 
 .servicios {
-    background-image: url('../assets/FondoSeccionServicios.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: auto;
-    width: 100%;
-    padding: 4rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    position: relative;
+  background-color: rgb(13, 13, 13);
+  min-height: auto;
+  width: 100%;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
   overflow: hidden; 
 }
+
+.servicios.lazy-bg {
+  background-image: url('../assets/FondoSeccionServicios.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .servicios::before {
     content: "";
     position: absolute;

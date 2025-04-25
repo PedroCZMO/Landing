@@ -20,7 +20,7 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className="portfolio">
-      <h2>Portfolio</h2>
+      <h2>PORTFOLIO</h2>
       <div className="project">
         <h3>VEO Fotografía y Diseño</h3>
         <p>

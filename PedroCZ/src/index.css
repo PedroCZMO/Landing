@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: rgb(13, 13, 13);
   color: #f1f1f1;
 }
@@ -39,4 +39,8 @@ button {
   padding: 0.8rem 1.2rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
 }

@@ -27,6 +27,8 @@
     pointer-events: none;
   }
   .servicios h2 {
+    font-family: 'Orbitron', sans-serif;
+
     font-size: 2rem;
     padding: 0.5rem 1rem;
     background-color: rgba(15,15,15,0.7);
@@ -37,6 +39,7 @@
     position: relative;
     z-index: 1;
   }
+  
 .servicesCards {
     display: flex;
     flex-wrap: wrap;

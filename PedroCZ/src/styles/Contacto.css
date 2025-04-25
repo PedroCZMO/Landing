@@ -26,6 +26,8 @@ overflow: hidden; /* importante para ocultar el overlay */
     pointer-events: none;
   }
   .contacto h2{
+    font-family: 'Orbitron', sans-serif;
+
     font-size: 2rem;
     padding: 0.5rem 1rem;
     background-color: rgba(15,15,15,0.7);

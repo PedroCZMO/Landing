@@ -8,20 +8,20 @@ export default function Servicios() {
     <div className="servicesCards">
         <div className="serviceCard">
             <h3>🔒 Auditoría de Seguridad Web</h3>
-            <p>Analizo tu web en busca de vulnerabilidades (tipo OWASP Top 10), te entrego un informe claro y recomendaciones prácticas.</p>
-            <a href="#contacto" className="btnAuditoria">Solicita tu auditoría 🔍</a>
+            <p>Identifico vulnerabilidades en tu web (OWASP Top 10 y más) y te entrego un informe técnico claro con soluciones prácticas para reforzar tu seguridad.</p>
+            <a href="#contacto" className="btnAuditoria">Solicita tu informe 🔍</a>
         </div>
 
         <div className="serviceCard">
             <h3>⚙️ Desarrollo Web Seguro</h3>
-            <p>Diseño sitios web rápidos, modernos y con buenas prácticas de seguridad desde el código. Wordpress o React a medida.</p>
-            <a href="#contacto" className="btnAuditoria">Solicita tu auditoría 🔍</a>
+            <p>Desarrollo sitios web rápidos, modernos y seguros desde el código. WordPress o React personalizados, aplicando buenas prácticas y hardening.</p>
+            <a href="#contacto" className="btnAuditoria">Solicita tu web segura ⚙️</a>
         </div>
 
         <div className="serviceCard">
             <h3>🧠 Consultoría Técnica</h3>
-            <p>¿Dudas sobre la seguridad de tu proyecto? Te ayudo a evaluar y fortalecer tu stack actual.</p>
-            <a href="#contacto" className="btnAuditoria">Solicita tu auditoría 🔍</a>
+            <p>¿Tienes dudas sobre la seguridad de tu proyecto? Te ayudo a revisar tu infraestructura, detectar riesgos y reforzar tu stack tecnológico.</p>
+            <a href="#contacto" className="btnAuditoria">Consulta sin compromiso 💬</a>
         </div>
         
     </div>

@@ -32,7 +32,7 @@ export default function Portfolio() {
       <div className="portfolio-gallery">
         {images.map((src, index) => (
           <div key={index} className="portfolio-item" onClick={() => setZoomedImg(src)}>
-            <img src={src} alt={`Captura ${index + 1}`} />
+            <img src={src} alt={`Captura pantalla sitio ${index + 1}`} />
           </div>
         ))}
       </div>

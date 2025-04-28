@@ -27,10 +27,9 @@
     margin: 1%;
 }
 .headerA a:hover{
-    margin: 1%;
-    transform: scale(1.05);
-    background-color: #f55050;
-    transition: all 0.2s ease-in-out;
+  background: linear-gradient(135deg, #ff7b00, #ff4d4f); /* inverso al normal */
+  box-shadow: 0 0 20px #ff4d4f, 0 0 40px #ff7b00;
+  transform: scale(1.05);
 }
 .tagline {
     font-size: 1rem;

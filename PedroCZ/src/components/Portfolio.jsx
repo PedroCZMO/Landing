@@ -4,15 +4,15 @@ import "../styles/Portfolio.css";
 const base = import.meta.env.BASE_URL;
 
 const images = [
-  `${base}assets/ProyectosIMG/VEOFyD1.png`,
-  `${base}assets/ProyectosIMG/VEOFyD2.png`,
-  `${base}assets/ProyectosIMG/VEOFyD3.png`,
-  `${base}assets/ProyectosIMG/VEOFyD4.png`,
-  `${base}assets/ProyectosIMG/VEOFyD5.png`,
-  `${base}assets/ProyectosIMG/VEOFyD6.png`,
-  `${base}assets/ProyectosIMG/VEOFyD7.png`,
-  `${base}assets/ProyectosIMG/VEOFyD8.png`,
-  `${base}assets/ProyectosIMG/VEOFyD9.png`
+  `${base}assets/ProyectosIMG/VEOFyD1.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD2.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD3.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD4.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD5.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD6.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD7.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD8.webp`,
+  `${base}assets/ProyectosIMG/VEOFyD9.webp`
 ];
 
 export default function Portfolio() {

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/PedroCZ-Logo.png";
+import logo from "../assets/PedroCZ-Logo.webp";
 import "../styles/Header.css";
 
 export default function Header() {
